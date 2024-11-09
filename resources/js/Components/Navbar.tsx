@@ -13,7 +13,7 @@ export default function Navbar() {
                         Home
                     </Link>
                     <Link href="/about" className="text-gray-700 hover:text-indigo-600">
-                        About Us
+                    About Us
                     </Link>
                     <Link href="/login" className="text-gray-700 hover:text-indigo-600">
                         Login

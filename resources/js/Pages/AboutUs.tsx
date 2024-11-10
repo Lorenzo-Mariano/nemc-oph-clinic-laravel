@@ -42,7 +42,10 @@ export default function OphthalmologyClinic(props: PageProps) {
                     {[
                         { src: "/img/dm.png", name: "Dr. Michael Greg DL. Gonzales", title: "General Ophthalmologist", description: "Laser and Microscopic Cataract Surgery. Available Monday to Friday." },
                         { src: "/img/dg.png", name: "Dra. Cel Garcia-Arenal", title: "Ophthalmologist - Retina Specialist", description: "Laser and Microscopic Cataract & Retina Surgery." },
-                        { src: "/img/dm.png", name: "Dr. Ivan O’Neill C. Tecson", title: "Ophthalmologist - Glaucoma Specialist", description: "Cataract and Glaucoma Surgery." },
+                        { src: "/img/dm.png", name: "Dr. Gerard V. Bordador", title: "Ophthalmologist - Glaucoma Specialist", description: "Cataract and Glaucoma Surgery." },
+                        { src: "/img/dg.png", name: "Dra. Jo Anne C. Lorenzo", title: "Ophthalmologist - Retina Specialist", description: "Laser and Microscopic Cataract & Retina Surgery." },
+                        { src: "/img/dm.png", name: "Dr. Donato Ting", title: "Ophthalmologist - Glaucoma Specialist", description: "Cataract and Glaucoma Surgery." },
+                        { src: "/img/dg.png", name: "Dra. Sharleen Ivy O. Cortez", title: "Ophthalmologist - Retina Specialist", description: "Laser and Microscopic Cataract & Retina Surgery." },
                         // Additional team members can be added here
                     ].map((doctor, index) => (
                         <div key={index} className="doctor-card bg-white rounded-lg shadow-md p-4">
